@@ -12,6 +12,7 @@ dev = "app:main"
 python = "^3.12"
 slack-bolt = "^1.18.1"
 python-dotenv = "^1.0.1"
+openai = "^1.10.0"
 
 
 [build-system]
