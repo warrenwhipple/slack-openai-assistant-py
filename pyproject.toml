@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "slack-openai-assistant-py"
+name = "app"
 version = "0.1.0"
 description = ""
 authors = ["Warren Whipple <w@warrenwhipple.com>"]
