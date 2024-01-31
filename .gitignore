@@ -1,4 +1,13 @@
-__pycache__
+# Secrets
 .env
-scratchpad.*
+
+# Python
+__pycache__
+.venv
+
+# File system
 .DS_Store
+
+# Temporary notes
+*.scratchpad.*
+scratchpad.*
