@@ -1,0 +1,1 @@
+watchmedo auto-restart -d . -p "*.py" -R poetry run dev
