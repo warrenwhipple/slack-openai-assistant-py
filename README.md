@@ -29,7 +29,7 @@ pipx install poetry
 5. Enable socket mode: Settings > Socket Mode > Connect... > switch on
 6. Generate app token: Settings > Basic... > App-Level Tokens > Generate... > any name e.g. "openai assistant" > Add Scope `connections:write` > Generate
 7. Add Slack app token to `.env`
-8. Enable DM to bot: Features > App Home > Show Tabs > Messages Tab > Allow users to send... > checked > Teload Slack client `Cmd + R`
+8. Enable DM to bot: Features > App Home > Show Tabs > Messages Tab > Allow users to send... > checked > Reload Slack client `Cmd + R`
 9. Add [OpenAI API key](https://platform.openai.com/api-keys) to `.env`
 
 ```sh

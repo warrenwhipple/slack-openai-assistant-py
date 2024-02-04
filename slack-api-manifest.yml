@@ -1,18 +1,18 @@
 display_information:
-  name: OpenAI Assistant Python
-  description: OpenAI assistant prototype in python
+  name: OpenAI Py
+  description: OpenAI assistant in python
   background_color: "#2b6882"
 features:
   bot_user:
-    display_name: OpenAI
+    display_name: OpenAI Py
     always_online: true
 oauth_config:
   scopes:
     bot:
       - app_mentions:read
       - chat:write
-      - im:history
       - files:read
+      - im:history
 settings:
   event_subscriptions:
     bot_events:
