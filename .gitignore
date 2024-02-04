@@ -1,13 +1,6 @@
-# Secrets
-.env
-
-# Python
-__pycache__
-.venv
-
-# File system
 .DS_Store
-
-# Temporary notes
+.env
+.venv
+__pycache__
 *.scratchpad.*
 scratchpad.*
