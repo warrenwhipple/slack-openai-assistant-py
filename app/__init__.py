@@ -38,10 +38,7 @@ def handle_message_file_share(body, say):
             for chunk in response.iter_content(chunk_size=8192):
                 file_data.extend(chunk)
             file_content = bytes(file_data)
-            text_content = file_content.decode("utf-8")
-            say(
-                f'You sent me the file "{file_name}" with contents "{text_content}". Uploading to OpenAI...'
-            )
+            say(f'You sent me the file "{file_name}". Uploading to OpenAI...')
         else:
             say(
                 'You tried to send me the file "{file_name}" but I could not access it.'
